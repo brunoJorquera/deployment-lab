@@ -1,0 +1,62 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: black;
+}
+
+header{
+    margin: 0px auto;
+    padding:10px;
+    height:100px;
+    background:rgb(251, 136, 4);
+    display: flex;
+    justify-content: space-between;
+    color: White;
+}
+
+.tiger-header{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 300px;
+}
+
+.head-img{
+    height: 75px;
+    width: 75px;
+    background-image: url("Kitty.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border:solid black;
+    border-radius: 50px;
+}
+
+.title{
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 700;
+    height: 80px;
+    width:200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+}
+
+nav{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 300px;
+}
+
+.nav-link{
+    margin: 0 auto;
+    font-weight: 700;
+    height: 80px;
+    width:200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+}
